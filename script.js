@@ -9,9 +9,9 @@ ham.addEventListener("click", () => {
   ham.classList.toggle("active-btn");
   mobileMenu.classList.toggle("active-menu");
   if (ham.classList.contains("active-btn")) {
-    icon.src = "./images/icon-close-menu.svg";
+    icon.src = "icon-close-menu.svg";
   } else {
-    icon.src = "./images/icon-menu.svg";
+    icon.src = "icon-menu.svg";
   }
 });
 

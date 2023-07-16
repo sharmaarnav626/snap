@@ -48,7 +48,9 @@
   border: 1px solid var(--Almost-Black);
   color: var(--Almost-Black);
 }
-
+.close{
+  margin-block:1em;
+}
 /* NAVBAR */
 nav {
     height: 80px;
@@ -179,7 +181,7 @@ justify-content: space-between;
       bottom: 0;
       width: 70%;
       background-color: var(--Almost-White);
-      padding: 5rem 2rem;
+      padding: 1rem 2rem;
     }
     .mobile-links {
       display: flex;

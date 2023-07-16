@@ -29,3 +29,12 @@ mobileLinks.forEach((link) => {
     subMenu.classList.toggle("active-menu");
   });
 });
+
+const closeBtn = document.querySelector(".close");
+
+closeBtn.addEventListener("click", () => {
+  const icon = document.querySelector(".mobile-menu-btn img");
+  ham.classList.remove("active-btn");
+  mobileMenu.classList.remove("active-menu");
+  icon.src = "icon-menu.svg";
+});
